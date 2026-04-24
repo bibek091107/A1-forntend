@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import ProteinViewer from './components/ProteinViewer';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = 'https://a1-backend-976q.onrender.com/api/v1';
 const RCSB_SEARCH_URL = 'https://search.rcsb.org/rcsbsearch/v2/query';
 const REPRESENTATIONS = ['cartoon', 'surface', 'ball+stick', 'licorice', 'spacefill'];
 
